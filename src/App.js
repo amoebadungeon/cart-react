@@ -13,8 +13,8 @@ function App() {
         <div className='website-header'><img src={`${process.env.PUBLIC_URL}/picture/logo.png`} alt="list"/></div>
          <div className='menu-header'>
           <ul className='list-menu'>
-            <li><a href='/react-cart'><img src={`${process.env.PUBLIC_URL}/picture/iconList.png`} alt="list"/></a></li>
-            <li><a href='/react-cart/cart'><img src={`${process.env.PUBLIC_URL}/picture/cart.png`}  alt="list"/></a>
+            <li><a href='/cart-react'><img src={`${process.env.PUBLIC_URL}/picture/iconList.png`} alt="list"/></a></li>
+            <li><a href='/cart-react/cart'><img src={`${process.env.PUBLIC_URL}/picture/cart.png`}  alt="list"/></a>
             {itemCount > 0 && <span className="cart-count">{itemCount}</span>}</li>
             <li><img src={`${process.env.PUBLIC_URL}/picture/setting.png`}  alt="list"/></li>
           </ul>
