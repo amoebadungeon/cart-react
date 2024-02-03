@@ -10,7 +10,7 @@ const ListingPage = () =>{
     const navigate = useNavigate();
     const goToPage = (item) => {
         // Use navigate. Pass the path as argument
-        navigate('/product', { state: { item } });
+        navigate('/Product', { state: { item } });
       };
 
       
