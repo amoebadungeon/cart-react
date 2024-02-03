@@ -16,14 +16,14 @@ const CartPage = () => {
     return (
         <div className='cart-page'>
             {items.length === 0 ? (
-                <div className='empty-cart'><img src={"/picture/empty-cart.png"} alt='empty-cart'  /></div>
+                <div className='empty-cart'><img src={`${process.env.PUBLIC_URL}/picture/empty-cart.png`}  alt='empty-cart'  /></div>
             ) : (
                 <ul>
                     {items.map((item) => (
                         <li key={item.id}>
                             <div className='cart-item'>
                                 <Grid item xs={6}>
-                                    <div className='cart-pic'><img src={item.picture} alt={item.name} /></div>
+                                    <div className='cart-pic'><img src={`${process.env.PUBLIC_URL}/${item.picture}`}  alt={item.name} /></div>
                                 </Grid>
                                 <Grid item xs={6}>
                                     <div className='cart-name'>{item.name}</div>

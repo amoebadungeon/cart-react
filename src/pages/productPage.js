@@ -13,9 +13,9 @@ const ProductPage = () =>{
              {/* <Grid container spacing={5}>  */}
              <Grid  item xs={12}  >
             <div className="product-container">
-                <img src={item.picture} alt={item.name} />  
-                <img src={item.picture1} alt={item.name} />  
-                <img src={item.picture2} alt={item.name} />  
+                <img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} />  
+                <img src={`${process.env.PUBLIC_URL}/${item.picture1}`} alt={item.name} />  
+                <img src={`${process.env.PUBLIC_URL}/${item.picture2}`} alt={item.name} />  
             </div>
             </Grid>
            
