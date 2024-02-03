@@ -1,0 +1,235 @@
+.content{
+    height: 100vh;/* Full height of its container */
+    transition: opacity 1s ease;
+    position: relative;
+    top:68px;
+    // overflow-y: auto;
+}
+.listing-container{
+  height: 270px;
+  width: 270px;
+  position: relative;
+  top: 4em;
+  left: 1em;
+  margin-bottom: 4em;
+  display: inline-block;
+  list-style: none;
+  img{
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes the default inline behavior, helping with alignment */
+  }
+}
+.item-qty{
+  color: gray;
+  margin: 6px 0px 6px 0px
+}
+.item-buy{
+  margin:100px
+}
+.product-page{
+  // display: flex;
+  position: relative;
+  top: 100px;
+  margin:4em;
+  .product-container{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    // top: 4em;
+    left: 1em;
+    display: flex;
+    border-radius: 10px;
+    img{
+      max-width: 100%; /* Makes the image responsive */
+      height: auto; /* Maintains the aspect ratio */
+      display: block; /* Removes the default inline behavior, helping with alignment */
+      margin-right: 2vw;
+      border-radius: 10px;
+    }
+
+  }
+}
+.product-name{
+  position: relative;
+  margin: 20px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1;
+  
+ 
+}
+.product-desc{
+  color: gray;
+  margin: 20px;
+}
+.product-price{
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 20px; 
+  color:black;
+  position: relative;
+  margin: 20px;
+}
+.product-qty{
+  color:black;
+  position: relative;
+  margin: 20px;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.quantity-display {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: solid 1px blue;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  line-height: 0px;
+}
+
+.quantity-btn {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.quantity-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+/* CSS */
+.add-to-cart {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 64%;
+}
+
+.add-to-cart:hover,
+.add-to-cart:focus {
+  opacity: .75;
+}
+
+.item-name{
+  margin: 5px;
+}
+.cart-page{
+  position: relative;
+  top: 5em;
+  .empty-cart{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    img{
+      max-width: 100%; /* Makes the image responsive */
+      height: auto; /* Maintains the aspect ratio */
+      display: block; /* Removes the default inline behavior, helping with alignment */
+    }
+  }
+  ul,li{
+    list-style: none;
+  }
+}
+.cart-item{
+  position: relative;
+  top: 2em;
+  margin: 2em;
+  display: flex;
+  // justify-content: space-around;
+  .cart-pic{
+    height: 200px;
+    width: 200px;
+    margin-right: 2em;
+    img{
+      max-width: 100%; /* Makes the image responsive */
+      height: auto; /* Maintains the aspect ratio */
+      display: block; /* Removes the default inline behavior, helping with alignment */
+      margin-right: 2vw;
+      border-radius: 10px;
+    }
+  
+  }
+  .cart-name{
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2em;
+  }
+  .quantity-display{
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+/* CSS */
+.button-54 {
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  z-index: 1000;
+  width: 23em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}

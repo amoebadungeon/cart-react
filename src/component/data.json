@@ -1,0 +1,55 @@
+{
+    "products": [
+      {
+        "id"  : "01",
+        "name": "The Modern Winter Boot in Beige",
+        "picture": "/picture/010.png",
+        "picture1": "/picture/011.png",
+        "picture2": "/picture/012.png",
+        "quantity": 100,
+        "price": "RM 599.99",
+        "desc":"The Modern Winter Boot in Beige combines style with functionality. Crafted from waterproof materials and lined with insulating fabric, it ensures dry, warm feet in cold conditions. Its sleek, minimalist design, featuring a light beige hue, complements any winter wardrobe, making it a versatile choice for both outdoor adventures and casual outings."
+      },
+      {
+        "id"  : "02",
+        "name": "The Weekend Boot Z in Grey",
+        "picture": "/picture/020.png",
+        "picture1": "/picture/021.png",
+        "picture2": "/picture/022.png",
+        "quantity": 200,
+        "price": "RM 599.99",
+        "desc":"The Weekend Boot Z in Grey is the quintessential choice for effortless weekend style. Engineered with lightweight, durable materials, it offers unmatched comfort and support. The boot's modern, sleek grey finish pairs seamlessly with any casual outfit, while its water-resistant exterior ensures practicality in unpredictable weather, making it an all-around staple."
+      },
+      {
+        "id"  : "03",
+        "name": "The Weekend Boot in Cuero",
+        "picture": "/picture/030.png",
+        "picture1": "/picture/031.jpg",
+        "picture2": "/picture/032.jpg",
+        "quantity": 150,
+        "price": "RM 599.99",
+        "desc":"The Weekend Boot in Cuero stands out with its rich, tan leather construction, offering a perfect blend of luxury and durability. This boot features a classic design with contemporary touches, ensuring both comfort and style. Its versatile cuero shade easily transitions from outdoor adventures to casual city outings, making it an essential wardrobe piece."
+      },
+      {
+        "id"  : "04",
+        "name": "The Weekend Boot in Navy",
+        "picture": "/picture/040.png",
+        "picture1": "/picture/041.jpg",
+        "picture2": "/picture/042.png",
+        "quantity": 150,
+        "price": "RM 599.99",
+        "desc":"The Weekend Boot in Navy offers a stylish twist on classic footwear with its deep blue hue. Crafted for comfort and durability, it combines a soft, supportive insole with a robust, water-resistant exterior. Perfect for any casual occasion, its navy color adds a touch of elegance, making it a versatile addition to any outfit."
+      },
+      {
+        "id"  : "05",
+        "name": "The Simone Weekend Boot",
+        "picture": "/picture/050.png",
+        "picture1": "/picture/051.png",
+        "picture2": "/picture/052.png",
+        "quantity": 100,
+        "price": "RM 599.99",
+        "desc":"The Simone Weekend Boot redefines casual elegance with its sophisticated design. Crafted from premium materials, it features a sleek silhouette that combines functionality with fashion. The boot's cushioned footbed ensures all-day comfort, while its versatile style makes it suitable for various occasions. Whether for city walks or countryside adventures, it's the perfect companion."
+      }
+    ]
+  }
+  
