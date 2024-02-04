@@ -1,6 +1,6 @@
 import './App.scss';
 
-import { BrowserRouter, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import { ListingPage , ProductPage,CartPage } from './pages'
 import { useSelector } from 'react-redux'
 
@@ -24,8 +24,8 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<ListingPage/>}/>
-          <Route path='Product' element={<ProductPage/>}/>
-          <Route path="Cart" element={<CartPage/>} />
+          <Route path='/product' element={<ProductPage/>}/>
+          <Route path="/cart" element={<CartPage/>} />
         </Routes>
        </BrowserRouter>
      
