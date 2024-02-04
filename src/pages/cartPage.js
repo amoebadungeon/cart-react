@@ -28,10 +28,10 @@ const CartPage = () => {
                         <li key={item.id}>
                             <div className='cart-item'>
                                 <Grid container spacing={2}>
-                                    <Grid item xs={6}>
+                                    <Grid item xs={12}>
                                         <div className='cart-pic'><img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} /></div>
                                     </Grid>
-                                    <Grid item xs={6}>
+                                    <Grid item xs={12}>
                                         <div className='cart-name'>{item.name}</div>
                                         <div className='cart-qty'>Quantity: {item.quantity}</div>
                                         <div className='cart-price'>RM {parseFloat(item.price).toFixed(2)}</div>

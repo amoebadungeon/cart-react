@@ -14,3 +14,13 @@
     justify-content: space-evenly;
   }
 }
+@media (max-width: 768px) {
+  .menu-header{
+    width: 170px;
+  }
+}
+@media (max-width: 480px) {
+  .menu-header{
+    width: 125px;
+  }
+}

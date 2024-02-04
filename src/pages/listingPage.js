@@ -20,7 +20,7 @@ const ListingPage = () =>{
             {data.products.map((item,index)=>{
                 return(
                     
-                    <Grid key={index} item xs={3} md={3} sm={4}>
+                    <Grid key={index} item xs={5} md={3} sm={6}>
                     <div className="listing-container">
                     <img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} onClick={() => goToPage(item)} />
                     <div className='item-name'>{item.name}</div>

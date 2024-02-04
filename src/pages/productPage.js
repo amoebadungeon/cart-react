@@ -10,8 +10,8 @@ const ProductPage = () =>{
     console.log(item)
     return(
         <div className="product-page">
-             {/* <Grid container spacing={5}>  */}
-             <Grid  item xs={12}  >
+             {/* <Grid container spacing={0}>  */}
+             <Grid  item xs={5} md={4} sm={3}  >
             <div className="product-container">
                 <img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} />  
                 <img src={`${process.env.PUBLIC_URL}/${item.picture1}`} alt={item.name} />  
@@ -19,6 +19,7 @@ const ProductPage = () =>{
             </div>
             </Grid>
            
+            
             <div className="product-name">{item.name}</div>
             <div className="product-desc">{item.desc}</div>
             <div className="product-price">RM {item.price}</div>
