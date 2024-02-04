@@ -24,7 +24,7 @@ const ListingPage = () =>{
                     <div className="listing-container">
                     <img src={`${process.env.PUBLIC_URL}/${item.picture}`} alt={item.name} onClick={() => goToPage(item)} />
                     <div className='item-name'>{item.name}</div>
-                    <div className='item-name'>{item.price}</div>
+                    <div className='item-name'>RM {item.price}</div>
                     <div className='item-qty'>Quantity: {item.quantity}</div>
                     <Button  variant="contained" onClick={() => goToPage(item)}>Buy</Button>
                     </div>
