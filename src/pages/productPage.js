@@ -21,7 +21,7 @@ const ProductPage = () =>{
            
             <div className="product-name">{item.name}</div>
             <div className="product-desc">{item.desc}</div>
-            <div className="product-price">{item.price}</div>
+            <div className="product-price">RM {item.price}</div>
             <div className="product-qty">Quantity: {item.quantity}</div>
             
             <Provider store={store}>

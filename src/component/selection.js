@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 
 const Selection = ({product}) =>{
-    console.log("babi",product.name)
     const counter = useSelector((state)=>state.counter.value);
-    // const items = useSelector((state)=>state.cart.items);
     const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch({ type: "RESET_COUNTER" });
+        
+    }, [product.id, dispatch]);
 
     return(
         <div className="quantity-box">
@@ -19,7 +22,7 @@ const Selection = ({product}) =>{
         </button>
         <button className="add-to-cart" 
         onClick={() => dispatch({ type: "ADD_TO_CART", 
-        payload: { id:product.id, name: product.name, quantity: counter, picture: product.picture }, })}>
+        payload: { id:product.id, name: product.name, quantity: counter, picture: product.picture , price:product.price }, })}>
            Add to Cart
         </button>
 
