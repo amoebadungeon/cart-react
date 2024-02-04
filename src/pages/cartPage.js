@@ -43,7 +43,7 @@ const CartPage = () => {
                     ))}
                 </ul>
             )}
-        <button class="button-54" >Checkout</button>
+        <button className="button-54" >Checkout</button>
 
         </div>
     );
